@@ -1,0 +1,43 @@
+.catalogContainer {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.statusDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.statusDot.connected { background-color: #52c41a; } /* green */
+.statusDot.disconnected { background-color: #f5222d; } /* red */
+.statusDot.reconnecting { background-color: #faad14; } /* yellow */
+
+.appTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.section {
+  margin-top: 24px;
+}
+
+.sectionTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.cardsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
